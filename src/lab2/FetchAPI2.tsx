@@ -180,7 +180,7 @@ function FetchAPI2({ pokemonName = 'ditto' }: { pokemonName?: string }) {
               <div className="stat-bar">
                 <div
                   className="stat-value"
-                  style={{ width: `${(stat.base_stat / 150) * 100}%` }}
+                  style={{ width: `${(stat.base_stat / 200) * 100}%` }}
                 >
                   {stat.base_stat}
                 </div>
