@@ -2,18 +2,18 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 
-import Usuarios from './lab4/Usuarios.tsx'
-import Empleados from './lab4/Empleados.tsx'
-import CRUDAI from './lab4/CRUDAI.tsx'
+import App from './lab5/App.tsx'
+import App3 from './lab5/App3.tsx'
+import App2 from './lab5/App2.tsx'
 
 
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
 
-    <Usuarios />
-    <Empleados />
-    <CRUDAI />
+    <App />
+    <App2 />
+    <App3 />
 
   </StrictMode>
 )
