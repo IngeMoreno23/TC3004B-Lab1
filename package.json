@@ -11,9 +11,12 @@
   },
   "dependencies": {
     "@types/prop-types": "^15.7.15",
+    "bootstrap": "^5.3.8",
     "prop-types": "^15.8.1",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.2.0",
+    "reactstrap": "^9.2.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
